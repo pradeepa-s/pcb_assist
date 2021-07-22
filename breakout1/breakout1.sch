@@ -1,0 +1,1132 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L breakouts:ChipLQFP64 U1
+U 1 1 60F380B6
+P 9250 2550
+F 0 "U1" H 9200 2750 50  0000 L CNN
+F 1 "ChipLQFP64" H 9150 2600 50  0000 L CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 9000 2950 50  0001 C CNN
+F 3 "" H 9000 2950 50  0001 C CNN
+	1    9250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x16_Male J1
+U 1 1 60F3BB92
+P 7500 2500
+F 0 "J1" H 7608 3381 50  0000 C CNN
+F 1 "Conn_01x16_Male" H 7608 3290 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 7500 2500 50  0001 C CNN
+F 3 "~" H 7500 2500 50  0001 C CNN
+	1    7500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 1800 7700 1800
+Wire Wire Line
+	7700 1900 8150 1900
+Wire Wire Line
+	8150 2000 7700 2000
+Wire Wire Line
+	7700 2100 8150 2100
+Wire Wire Line
+	8150 2200 7700 2200
+Wire Wire Line
+	7700 2300 8150 2300
+Wire Wire Line
+	8150 2400 7700 2400
+Wire Wire Line
+	7700 2500 8150 2500
+Wire Wire Line
+	8150 2600 7700 2600
+Wire Wire Line
+	7700 2700 8150 2700
+Wire Wire Line
+	8150 2800 7700 2800
+Wire Wire Line
+	7700 2900 8150 2900
+Wire Wire Line
+	8150 3000 7700 3000
+Wire Wire Line
+	7700 3100 8150 3100
+Wire Wire Line
+	8150 3200 7700 3200
+Wire Wire Line
+	7700 3300 8150 3300
+$Comp
+L Connector:Conn_01x16_Male J2
+U 1 1 60F46149
+P 9200 4150
+F 0 "J2" V 9127 4078 50  0000 C CNN
+F 1 "Conn_01x16_Male" V 9036 4078 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 9200 4150 50  0001 C CNN
+F 3 "~" H 9200 4150 50  0001 C CNN
+	1    9200 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 3600 8500 3950
+Wire Wire Line
+	8600 3950 8600 3600
+Wire Wire Line
+	8700 3950 8700 3600
+Wire Wire Line
+	8800 3950 8800 3600
+Wire Wire Line
+	8900 3950 8900 3600
+Wire Wire Line
+	9000 3950 9000 3600
+Wire Wire Line
+	9100 3950 9100 3600
+Wire Wire Line
+	9200 3950 9200 3600
+Wire Wire Line
+	9300 3950 9300 3600
+Wire Wire Line
+	9400 3600 9400 3950
+Wire Wire Line
+	9500 3600 9500 3950
+Wire Wire Line
+	9600 3600 9600 3950
+Wire Wire Line
+	9700 3600 9700 3950
+Wire Wire Line
+	9800 3600 9800 3950
+Wire Wire Line
+	9900 3600 9900 3950
+Wire Wire Line
+	10000 3600 10000 3950
+$Comp
+L Connector:Conn_01x16_Male J4
+U 1 1 60F54080
+P 11000 2600
+F 0 "J4" H 11108 3481 50  0000 C CNN
+F 1 "Conn_01x16_Male" H 11108 3390 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 11000 2600 50  0001 C CNN
+F 3 "~" H 11000 2600 50  0001 C CNN
+	1    11000 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10350 3300 10800 3300
+Wire Wire Line
+	10800 3200 10350 3200
+Wire Wire Line
+	10350 3100 10800 3100
+Wire Wire Line
+	10800 3000 10350 3000
+Wire Wire Line
+	10350 2900 10800 2900
+Wire Wire Line
+	10800 2800 10350 2800
+Wire Wire Line
+	10350 2700 10800 2700
+Wire Wire Line
+	10800 2600 10350 2600
+Wire Wire Line
+	10350 2500 10800 2500
+Wire Wire Line
+	10800 2400 10350 2400
+Wire Wire Line
+	10350 2300 10800 2300
+Wire Wire Line
+	10800 2200 10350 2200
+Wire Wire Line
+	10350 2100 10800 2100
+Wire Wire Line
+	10800 2000 10350 2000
+Wire Wire Line
+	10350 1900 10800 1900
+Wire Wire Line
+	10800 1800 10350 1800
+$Comp
+L Connector:Conn_01x16_Male J3
+U 1 1 60F5C772
+P 9300 950
+F 0 "J3" V 9227 878 50  0000 C CNN
+F 1 "Conn_01x16_Male" V 9136 878 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 9300 950 50  0001 C CNN
+F 3 "~" H 9300 950 50  0001 C CNN
+	1    9300 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10000 1500 10000 1150
+Wire Wire Line
+	9900 1150 9900 1500
+Wire Wire Line
+	9800 1150 9800 1500
+Wire Wire Line
+	9700 1150 9700 1500
+Wire Wire Line
+	9600 1150 9600 1500
+Wire Wire Line
+	9500 1150 9500 1500
+Wire Wire Line
+	9400 1150 9400 1500
+Wire Wire Line
+	9300 1150 9300 1500
+Wire Wire Line
+	9200 1150 9200 1500
+Wire Wire Line
+	9100 1500 9100 1150
+Wire Wire Line
+	9000 1500 9000 1150
+Wire Wire Line
+	8900 1500 8900 1150
+Wire Wire Line
+	8800 1500 8800 1150
+Wire Wire Line
+	8700 1500 8700 1150
+Wire Wire Line
+	8600 1500 8600 1150
+Wire Wire Line
+	8500 1500 8500 1150
+$Comp
+L breakouts:ChipLQFP48 U2
+U 1 1 60EACDE3
+P 2100 2100
+F 0 "U2" H 2050 2450 50  0000 L CNN
+F 1 "ChipLQFP48" H 1950 1950 50  0000 L CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2150 2300 50  0001 C CNN
+F 3 "" H 2150 2300 50  0001 C CNN
+	1    2100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Male J5
+U 1 1 60EAF9A5
+P 800 2050
+F 0 "J5" H 908 2731 50  0000 C CNN
+F 1 "Conn_01x12_Male" H 908 2640 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 800 2050 50  0001 C CNN
+F 3 "~" H 800 2050 50  0001 C CNN
+	1    800  2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Male J6
+U 1 1 60EB2CBE
+P 2050 3400
+F 0 "J6" V 1977 3328 50  0000 C CNN
+F 1 "Conn_01x12_Male" V 1886 3328 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 2050 3400 50  0001 C CNN
+F 3 "~" H 2050 3400 50  0001 C CNN
+	1    2050 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x12_Male J8
+U 1 1 60EB7871
+P 3400 2150
+F 0 "J8" H 3372 2032 50  0000 R CNN
+F 1 "Conn_01x12_Male" H 3372 2123 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 3400 2150 50  0001 C CNN
+F 3 "~" H 3400 2150 50  0001 C CNN
+	1    3400 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x12_Male J7
+U 1 1 60EB91A0
+P 2150 800
+F 0 "J7" V 1985 728 50  0000 C CNN
+F 1 "Conn_01x12_Male" V 2076 728 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 2150 800 50  0001 C CNN
+F 3 "~" H 2150 800 50  0001 C CNN
+	1    2150 800 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 1550 1300 1550
+Wire Wire Line
+	1300 1650 1000 1650
+Wire Wire Line
+	1000 1750 1300 1750
+Wire Wire Line
+	1300 1850 1000 1850
+Wire Wire Line
+	1000 1950 1300 1950
+Wire Wire Line
+	1300 2050 1000 2050
+Wire Wire Line
+	1000 2150 1300 2150
+Wire Wire Line
+	1300 2250 1000 2250
+Wire Wire Line
+	1000 2350 1300 2350
+Wire Wire Line
+	1300 2450 1000 2450
+Wire Wire Line
+	1000 2550 1300 2550
+Wire Wire Line
+	1300 2650 1000 2650
+Wire Wire Line
+	1550 3200 1550 2900
+Wire Wire Line
+	1650 3200 1650 2900
+Wire Wire Line
+	1750 2900 1750 3200
+Wire Wire Line
+	1850 3200 1850 2900
+Wire Wire Line
+	1950 2900 1950 3200
+Wire Wire Line
+	2050 3200 2050 2900
+Wire Wire Line
+	2150 2900 2150 3200
+Wire Wire Line
+	2250 3200 2250 2900
+Wire Wire Line
+	2350 2900 2350 3200
+Wire Wire Line
+	2450 3200 2450 2900
+Wire Wire Line
+	2550 3200 2550 2900
+Wire Wire Line
+	2650 2900 2650 3200
+Wire Wire Line
+	2900 2650 3200 2650
+Wire Wire Line
+	3200 2550 2900 2550
+Wire Wire Line
+	2900 2450 3200 2450
+Wire Wire Line
+	3200 2350 2900 2350
+Wire Wire Line
+	2900 2250 3200 2250
+Wire Wire Line
+	3200 2150 2900 2150
+Wire Wire Line
+	2900 2050 3200 2050
+Wire Wire Line
+	3200 1950 2900 1950
+Wire Wire Line
+	2900 1850 3200 1850
+Wire Wire Line
+	3200 1750 2900 1750
+Wire Wire Line
+	2900 1650 3200 1650
+Wire Wire Line
+	3200 1550 2900 1550
+Wire Wire Line
+	1550 1000 1550 1250
+Wire Wire Line
+	1650 1000 1650 1250
+Wire Wire Line
+	1750 1250 1750 1000
+Wire Wire Line
+	1850 1000 1850 1250
+Wire Wire Line
+	1950 1250 1950 1000
+Wire Wire Line
+	2050 1000 2050 1250
+Wire Wire Line
+	2150 1250 2150 1000
+Wire Wire Line
+	2250 1000 2250 1250
+Wire Wire Line
+	2350 1250 2350 1000
+Wire Wire Line
+	2450 1000 2450 1250
+Wire Wire Line
+	2550 1250 2550 1000
+Wire Wire Line
+	2650 1000 2650 1250
+$Comp
+L breakouts:ChipSOP8 U3
+U 1 1 60FACF49
+P 1800 4250
+F 0 "U3" H 1825 4665 50  0000 C CNN
+F 1 "ChipSOP8" H 1825 4574 50  0000 C CNN
+F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 1900 3950 50  0001 C CNN
+F 3 "" H 2250 4050 50  0001 C CNN
+	1    1800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J9
+U 1 1 60FAE7CC
+P 950 4200
+F 0 "J9" H 1058 4481 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 1058 4390 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 950 4200 50  0001 C CNN
+F 3 "~" H 950 4200 50  0001 C CNN
+	1    950  4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J10
+U 1 1 60FAF77D
+P 2700 4300
+F 0 "J10" H 2672 4182 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 2672 4273 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2700 4300 50  0001 C CNN
+F 3 "~" H 2700 4300 50  0001 C CNN
+	1    2700 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1150 4100 1400 4100
+Wire Wire Line
+	1400 4200 1150 4200
+Wire Wire Line
+	1150 4300 1400 4300
+Wire Wire Line
+	1400 4400 1150 4400
+Wire Wire Line
+	2250 4100 2500 4100
+Wire Wire Line
+	2500 4200 2250 4200
+Wire Wire Line
+	2250 4300 2500 4300
+Wire Wire Line
+	2500 4400 2250 4400
+$Comp
+L breakouts:Chip6SOT U4
+U 1 1 60FFCF0A
+P 1900 5350
+F 0 "U4" H 1925 5765 50  0000 C CNN
+F 1 "Chip6SOT" H 1925 5674 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 2000 5050 50  0001 C CNN
+F 3 "" H 2350 5350 50  0001 C CNN
+	1    1900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J11
+U 1 1 60FFE1E1
+P 950 5300
+F 0 "J11" H 1058 5581 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1058 5490 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 950 5300 50  0001 C CNN
+F 3 "~" H 950 5300 50  0001 C CNN
+	1    950  5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J12
+U 1 1 60FFEFA2
+P 2800 5300
+F 0 "J12" H 2772 5232 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 2772 5323 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2800 5300 50  0001 C CNN
+F 3 "~" H 2800 5300 50  0001 C CNN
+	1    2800 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1150 5200 1500 5200
+Wire Wire Line
+	1500 5300 1150 5300
+Wire Wire Line
+	1150 5400 1500 5400
+Wire Wire Line
+	2350 5200 2600 5200
+Wire Wire Line
+	2600 5300 2350 5300
+Wire Wire Line
+	2350 5400 2600 5400
+$Comp
+L Device:Q_NJFET_DGS Q1
+U 1 1 6102C1C0
+P 1650 6350
+F 0 "Q1" H 1841 6396 50  0000 L CNN
+F 1 "Q_NJFET_DGS" H 1841 6305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1850 6450 50  0001 C CNN
+F 3 "~" H 1650 6350 50  0001 C CNN
+	1    1650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J13
+U 1 1 61039EE8
+P 950 6350
+F 0 "J13" H 1058 6631 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1058 6540 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 950 6350 50  0001 C CNN
+F 3 "~" H 950 6350 50  0001 C CNN
+	1    950  6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 6350 1450 6350
+Wire Wire Line
+	1150 6250 1450 6250
+Wire Wire Line
+	1450 6250 1450 6050
+Wire Wire Line
+	1450 6050 1750 6050
+Wire Wire Line
+	1750 6050 1750 6150
+Wire Wire Line
+	1150 6450 1450 6450
+Wire Wire Line
+	1450 6450 1450 6650
+Wire Wire Line
+	1450 6650 1750 6650
+Wire Wire Line
+	1750 6650 1750 6550
+$Comp
+L breakouts:ChipLQFP32 U5
+U 1 1 6106E16B
+P 5850 2500
+F 0 "U5" H 5600 2800 50  0000 L CNN
+F 1 "ChipLQFP32" H 5500 2650 50  0000 L CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 5900 2900 50  0001 C CNN
+F 3 "" H 5900 2700 50  0001 C CNN
+	1    5850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J14
+U 1 1 6106FD87
+P 4600 2250
+F 0 "J14" H 4708 2731 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 4708 2640 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4600 2250 50  0001 C CNN
+F 3 "~" H 4600 2250 50  0001 C CNN
+	1    4600 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1950 5050 1950
+Wire Wire Line
+	5050 2050 4800 2050
+Wire Wire Line
+	4800 2150 5050 2150
+Wire Wire Line
+	5050 2250 4800 2250
+Wire Wire Line
+	4800 2350 5050 2350
+Wire Wire Line
+	5050 2450 4800 2450
+Wire Wire Line
+	4800 2550 5050 2550
+Wire Wire Line
+	5050 2650 4800 2650
+$Comp
+L Connector:Conn_01x08_Male J15
+U 1 1 610A980B
+P 5600 3300
+F 0 "J15" H 5708 3781 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 5708 3690 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5600 3300 50  0001 C CNN
+F 3 "~" H 5600 3300 50  0001 C CNN
+	1    5600 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 3100 5300 2900
+Wire Wire Line
+	5400 2900 5400 3100
+Wire Wire Line
+	5500 3100 5500 2900
+Wire Wire Line
+	5600 2900 5600 3100
+Wire Wire Line
+	5700 3100 5700 2900
+Wire Wire Line
+	5800 2900 5800 3100
+Wire Wire Line
+	5900 3100 5900 2900
+Wire Wire Line
+	6000 2900 6000 3100
+$Comp
+L Connector:Conn_01x08_Male J17
+U 1 1 610B1F37
+P 6650 2350
+F 0 "J17" H 6758 2831 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 6758 2740 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6650 2350 50  0001 C CNN
+F 3 "~" H 6650 2350 50  0001 C CNN
+	1    6650 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 2650 6250 2650
+Wire Wire Line
+	6250 2550 6450 2550
+Wire Wire Line
+	6450 2450 6250 2450
+Wire Wire Line
+	6250 2350 6450 2350
+Wire Wire Line
+	6450 2250 6250 2250
+Wire Wire Line
+	6250 2150 6450 2150
+Wire Wire Line
+	6450 2050 6250 2050
+Wire Wire Line
+	6250 1950 6450 1950
+$Comp
+L Connector:Conn_01x08_Male J16
+U 1 1 610BB047
+P 5750 1200
+F 0 "J16" H 5858 1681 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 5858 1590 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5750 1200 50  0001 C CNN
+F 3 "~" H 5750 1200 50  0001 C CNN
+	1    5750 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 1400 6050 1650
+Wire Wire Line
+	5950 1650 5950 1400
+Wire Wire Line
+	5850 1400 5850 1650
+Wire Wire Line
+	5750 1650 5750 1400
+Wire Wire Line
+	5650 1400 5650 1650
+Wire Wire Line
+	5550 1650 5550 1400
+Wire Wire Line
+	5450 1400 5450 1650
+Wire Wire Line
+	5350 1650 5350 1400
+$Comp
+L breakouts:ChipSOIC16 U7
+U 1 1 60E85644
+P 5000 4700
+F 0 "U7" H 4600 5615 50  0000 C CNN
+F 1 "ChipSOIC16" H 4600 5524 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4650 5100 50  0001 C CNN
+F 3 "" H 5050 4900 50  0001 C CNN
+	1    5000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J19
+U 1 1 60E89EB4
+P 3750 4450
+F 0 "J19" H 3858 4931 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 3858 4840 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3750 4450 50  0001 C CNN
+F 3 "~" H 3750 4450 50  0001 C CNN
+	1    3750 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4150 4200 4150
+Wire Wire Line
+	4200 4250 3950 4250
+Wire Wire Line
+	3950 4350 4200 4350
+Wire Wire Line
+	4200 4450 3950 4450
+Wire Wire Line
+	3950 4550 4200 4550
+Wire Wire Line
+	4200 4650 3950 4650
+Wire Wire Line
+	3950 4750 4200 4750
+Wire Wire Line
+	4200 4850 3950 4850
+$Comp
+L Connector:Conn_01x08_Male J21
+U 1 1 60E96149
+P 5450 4550
+F 0 "J21" H 5558 5031 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 5558 4940 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5450 4550 50  0001 C CNN
+F 3 "~" H 5450 4550 50  0001 C CNN
+	1    5450 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 4850 5000 4850
+Wire Wire Line
+	5000 4750 5250 4750
+Wire Wire Line
+	5250 4650 5000 4650
+Wire Wire Line
+	5000 4550 5250 4550
+Wire Wire Line
+	5250 4450 5000 4450
+Wire Wire Line
+	5000 4350 5250 4350
+Wire Wire Line
+	5250 4250 5000 4250
+Wire Wire Line
+	5000 4150 5250 4150
+$Comp
+L breakouts:ChipSSOP20 U6
+U 1 1 60EC0ACD
+P 5400 6450
+F 0 "U6" H 5000 7365 50  0000 C CNN
+F 1 "ChipSSOP20" H 5000 7274 50  0000 C CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" H 5000 7350 50  0001 C CNN
+F 3 "" H 5450 6250 50  0001 C CNN
+	1    5400 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x10_Male J18
+U 1 1 60EC20C9
+P 4400 6300
+F 0 "J18" H 4508 6881 50  0000 C CNN
+F 1 "Conn_01x10_Male" H 4508 6790 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 4400 6300 50  0001 C CNN
+F 3 "~" H 4400 6300 50  0001 C CNN
+	1    4400 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x10_Male J20
+U 1 1 60EDD5F3
+P 5600 6400
+F 0 "J20" H 5572 6282 50  0000 R CNN
+F 1 "Conn_01x10_Male" H 5572 6373 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 5600 6400 50  0001 C CNN
+F 3 "~" H 5600 6400 50  0001 C CNN
+	1    5600 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 60E9BC9D
+P 7600 6000
+F 0 "C1" V 7371 6000 50  0000 C CNN
+F 1 "C_Small" V 7462 6000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7600 6000 50  0001 C CNN
+F 3 "~" H 7600 6000 50  0001 C CNN
+	1    7600 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 60E9C1C8
+P 7600 6150
+F 0 "C2" V 7371 6150 50  0000 C CNN
+F 1 "C_Small" V 7462 6150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7600 6150 50  0001 C CNN
+F 3 "~" H 7600 6150 50  0001 C CNN
+	1    7600 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 60E9C3B9
+P 7600 6300
+F 0 "C3" V 7371 6300 50  0000 C CNN
+F 1 "C_Small" V 7462 6300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7600 6300 50  0001 C CNN
+F 3 "~" H 7600 6300 50  0001 C CNN
+	1    7600 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 60E9C526
+P 7600 6450
+F 0 "C4" V 7371 6450 50  0000 C CNN
+F 1 "C_Small" V 7462 6450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7600 6450 50  0001 C CNN
+F 3 "~" H 7600 6450 50  0001 C CNN
+	1    7600 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 6150 7300 6150
+Wire Wire Line
+	7300 6150 7300 6000
+Wire Wire Line
+	7300 6000 7500 6000
+Wire Wire Line
+	7200 6250 7350 6250
+Wire Wire Line
+	7350 6250 7350 6150
+Wire Wire Line
+	7350 6150 7500 6150
+Wire Wire Line
+	7200 6350 7300 6350
+Wire Wire Line
+	7300 6350 7300 6300
+Wire Wire Line
+	7300 6300 7500 6300
+Wire Wire Line
+	7200 6450 7500 6450
+Wire Wire Line
+	7700 6450 8000 6450
+Wire Wire Line
+	7700 6300 7800 6300
+Wire Wire Line
+	7800 6300 7800 6350
+Wire Wire Line
+	7800 6350 8000 6350
+Wire Wire Line
+	7700 6150 7800 6150
+Wire Wire Line
+	7800 6150 7800 6250
+Wire Wire Line
+	7800 6250 8000 6250
+Wire Wire Line
+	7700 6000 7900 6000
+Wire Wire Line
+	7900 6000 7900 6150
+Wire Wire Line
+	7900 6150 8000 6150
+$Comp
+L Device:C_Small C17
+U 1 1 60FF0C4A
+P 10100 5900
+F 0 "C17" V 9871 5900 50  0000 C CNN
+F 1 "C_Small" V 9962 5900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10100 5900 50  0001 C CNN
+F 3 "~" H 10100 5900 50  0001 C CNN
+	1    10100 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 60FF0C50
+P 10100 6050
+F 0 "C18" V 9871 6050 50  0000 C CNN
+F 1 "C_Small" V 9962 6050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10100 6050 50  0001 C CNN
+F 3 "~" H 10100 6050 50  0001 C CNN
+	1    10100 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C19
+U 1 1 60FF0C56
+P 10100 6200
+F 0 "C19" V 9871 6200 50  0000 C CNN
+F 1 "C_Small" V 9962 6200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10100 6200 50  0001 C CNN
+F 3 "~" H 10100 6200 50  0001 C CNN
+	1    10100 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 60FF0C5C
+P 10100 6350
+F 0 "C20" V 9871 6350 50  0000 C CNN
+F 1 "C_Small" V 9962 6350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10100 6350 50  0001 C CNN
+F 3 "~" H 10100 6350 50  0001 C CNN
+	1    10100 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 6050 9800 6050
+Wire Wire Line
+	9800 6050 9800 5900
+Wire Wire Line
+	9800 5900 10000 5900
+Wire Wire Line
+	9700 6150 9850 6150
+Wire Wire Line
+	9850 6150 9850 6050
+Wire Wire Line
+	9850 6050 10000 6050
+Wire Wire Line
+	9700 6250 9800 6250
+Wire Wire Line
+	9800 6250 9800 6200
+Wire Wire Line
+	9800 6200 10000 6200
+Wire Wire Line
+	9700 6350 10000 6350
+Wire Wire Line
+	10200 6350 10500 6350
+Wire Wire Line
+	10200 6200 10300 6200
+Wire Wire Line
+	10300 6200 10300 6250
+Wire Wire Line
+	10300 6250 10500 6250
+Wire Wire Line
+	10200 6050 10300 6050
+Wire Wire Line
+	10300 6050 10300 6150
+Wire Wire Line
+	10300 6150 10500 6150
+Wire Wire Line
+	10200 5900 10400 5900
+Wire Wire Line
+	10400 5900 10400 6050
+Wire Wire Line
+	10400 6050 10500 6050
+$Comp
+L Device:C_Small C9
+U 1 1 61026F5A
+P 10100 4950
+F 0 "C9" V 9871 4950 50  0000 C CNN
+F 1 "C_Small" V 9962 4950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10100 4950 50  0001 C CNN
+F 3 "~" H 10100 4950 50  0001 C CNN
+	1    10100 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 61026F60
+P 10100 5100
+F 0 "C10" V 9871 5100 50  0000 C CNN
+F 1 "C_Small" V 9962 5100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10100 5100 50  0001 C CNN
+F 3 "~" H 10100 5100 50  0001 C CNN
+	1    10100 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 61026F66
+P 10100 5250
+F 0 "C11" V 9871 5250 50  0000 C CNN
+F 1 "C_Small" V 9962 5250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10100 5250 50  0001 C CNN
+F 3 "~" H 10100 5250 50  0001 C CNN
+	1    10100 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 61026F6C
+P 10100 5400
+F 0 "C12" V 9871 5400 50  0000 C CNN
+F 1 "C_Small" V 9962 5400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10100 5400 50  0001 C CNN
+F 3 "~" H 10100 5400 50  0001 C CNN
+	1    10100 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 5100 9800 5100
+Wire Wire Line
+	9800 5100 9800 4950
+Wire Wire Line
+	9800 4950 10000 4950
+Wire Wire Line
+	9700 5200 9850 5200
+Wire Wire Line
+	9850 5200 9850 5100
+Wire Wire Line
+	9850 5100 10000 5100
+Wire Wire Line
+	9700 5300 9800 5300
+Wire Wire Line
+	9800 5300 9800 5250
+Wire Wire Line
+	9800 5250 10000 5250
+Wire Wire Line
+	9700 5400 10000 5400
+Wire Wire Line
+	10200 5400 10500 5400
+Wire Wire Line
+	10200 5250 10300 5250
+Wire Wire Line
+	10300 5250 10300 5300
+Wire Wire Line
+	10300 5300 10500 5300
+Wire Wire Line
+	10200 5100 10300 5100
+Wire Wire Line
+	10300 5100 10300 5200
+Wire Wire Line
+	10300 5200 10500 5200
+Wire Wire Line
+	10200 4950 10400 4950
+Wire Wire Line
+	10400 4950 10400 5100
+Wire Wire Line
+	10400 5100 10500 5100
+$Comp
+L Connector:Conn_01x04_Male J23
+U 1 1 60FC3C46
+P 8200 6350
+F 0 "J23" H 8172 6232 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 8172 6323 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8200 6350 50  0001 C CNN
+F 3 "~" H 8200 6350 50  0001 C CNN
+	1    8200 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J22
+U 1 1 60FC50E1
+P 7000 6250
+F 0 "J22" H 6972 6132 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 6972 6223 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7000 6250 50  0001 C CNN
+F 3 "~" H 7000 6250 50  0001 C CNN
+	1    7000 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J24
+U 1 1 6103DD2B
+P 9500 5200
+F 0 "J24" H 9472 5082 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 9700 4900 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9500 5200 50  0001 C CNN
+F 3 "~" H 9500 5200 50  0001 C CNN
+	1    9500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J26
+U 1 1 6103E78B
+P 10700 5300
+F 0 "J26" H 10672 5182 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 10900 5500 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10700 5300 50  0001 C CNN
+F 3 "~" H 10700 5300 50  0001 C CNN
+	1    10700 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J25
+U 1 1 610A1D9E
+P 9500 6150
+F 0 "J25" H 9472 6032 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 9700 6350 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9500 6150 50  0001 C CNN
+F 3 "~" H 9500 6150 50  0001 C CNN
+	1    9500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J27
+U 1 1 610A293E
+P 10700 6250
+F 0 "J27" H 10672 6132 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 10900 6450 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10700 6250 50  0001 C CNN
+F 3 "~" H 10700 6250 50  0001 C CNN
+	1    10700 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NJFET_DGS Q2
+U 1 1 6112009A
+P 3250 6250
+F 0 "Q2" H 3441 6296 50  0000 L CNN
+F 1 "Q_NJFET_DGS" H 3441 6205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3450 6350 50  0001 C CNN
+F 3 "~" H 3250 6250 50  0001 C CNN
+	1    3250 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J28
+U 1 1 611200A0
+P 2550 6250
+F 0 "J28" H 2658 6531 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2658 6440 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2550 6250 50  0001 C CNN
+F 3 "~" H 2550 6250 50  0001 C CNN
+	1    2550 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 6250 3050 6250
+Wire Wire Line
+	2750 6150 3050 6150
+Wire Wire Line
+	3050 6150 3050 5950
+Wire Wire Line
+	3050 5950 3350 5950
+Wire Wire Line
+	3350 5950 3350 6050
+Wire Wire Line
+	2750 6350 3050 6350
+Wire Wire Line
+	3050 6350 3050 6550
+Wire Wire Line
+	3050 6550 3350 6550
+Wire Wire Line
+	3350 6550 3350 6450
+$Comp
+L breakouts:ChipMSOP8 U8
+U 1 1 60FAA57F
+P 6950 4500
+F 0 "U8" H 6975 4915 50  0000 C CNN
+F 1 "ChipMSOP8" H 6975 4824 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 7050 4200 50  0001 C CNN
+F 3 "" H 7400 4300 50  0001 C CNN
+	1    6950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J30
+U 1 1 60FAB296
+P 7600 4550
+F 0 "J30" H 7572 4432 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 7572 4523 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7600 4550 50  0001 C CNN
+F 3 "~" H 7600 4550 50  0001 C CNN
+	1    7600 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J29
+U 1 1 60FAC24A
+P 6350 4450
+F 0 "J29" H 6322 4332 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 6322 4423 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6350 4450 50  0001 C CNN
+F 3 "~" H 6350 4450 50  0001 C CNN
+	1    6350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NJFET_DGS Q3
+U 1 1 60FCFE0A
+P 3400 7250
+F 0 "Q3" H 3591 7296 50  0000 L CNN
+F 1 "Q_NJFET_DGS" H 3591 7205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3600 7350 50  0001 C CNN
+F 3 "~" H 3400 7250 50  0001 C CNN
+	1    3400 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J31
+U 1 1 60FCFE10
+P 2700 7250
+F 0 "J31" H 2808 7531 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2808 7440 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2700 7250 50  0001 C CNN
+F 3 "~" H 2700 7250 50  0001 C CNN
+	1    2700 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 7250 3200 7250
+Wire Wire Line
+	2900 7150 3200 7150
+Wire Wire Line
+	3200 7150 3200 6950
+Wire Wire Line
+	3200 6950 3500 6950
+Wire Wire Line
+	3500 6950 3500 7050
+Wire Wire Line
+	2900 7350 3200 7350
+Wire Wire Line
+	3200 7350 3200 7550
+Wire Wire Line
+	3200 7550 3500 7550
+Wire Wire Line
+	3500 7550 3500 7450
+$EndSCHEMATC
